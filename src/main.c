@@ -6,13 +6,12 @@
 /*   By: motanha- <motanha-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 14:47:44 by motanha-          #+#    #+#             */
-/*   Updated: 2023/09/27 14:47:48 by motanha-         ###   ########.fr       */
+/*   Updated: 2023/10/06 18:13:03 by motanha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "../includes/fractol.h"
-#include<stdio.h>
+#include <stdio.h>
 
 /** Function to draw/render fractal on screen **/
 
@@ -106,7 +105,7 @@ void	gui_init(t_mlx *mlx)
  **/
 
 void	arg_check(char *arg)
-{	
+{
 	t_mlx	*mlx;
 
 	mlx = malloc(sizeof(t_mlx));
@@ -114,7 +113,7 @@ void	arg_check(char *arg)
 	{
 		mlx->eqn = &mandelbrot;
 		gui_init(mlx);
-	}	
+	}
 	else if (!(ft_strncmp(arg, "2", 1)))
 	{
 		mlx->eqn = &julia;

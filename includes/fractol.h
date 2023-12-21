@@ -6,7 +6,7 @@
 /*   By: motanha- <motanha-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 14:50:53 by motanha-          #+#    #+#             */
-/*   Updated: 2023/09/27 14:50:56 by motanha-         ###   ########.fr       */
+/*   Updated: 2023/10/06 18:10:08 by motanha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ typedef struct s_img
 	char	*data_addr;
 	int		bpp;
 	int		line_size;
-	int		endian; // endian ? 
+	int		endian;
 }	t_img;
 
 /** Struct to calculate fractals **/

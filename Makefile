@@ -6,14 +6,14 @@
 #    By: motanha- <motanha-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/09/26 21:04:37 by motanha-          #+#    #+#              #
-#    Updated: 2023/09/26 21:04:39 by motanha-         ###   ########.fr        #
+#    Updated: 2023/10/06 18:07:45 by motanha-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME    = fractol
 #define compiler and flags for Debugger
 CC 		= gcc
-CFLAGS 	= -Wall -Werror -Wextra -I ./includes/fractol.h
+CFLAGS 	= -Wall -Werror -Wextra -o3 -I ./includes/fractol.h
 
 # Including the directories 
 LIBFT  	= ./libs/libft/

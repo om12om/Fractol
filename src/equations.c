@@ -6,10 +6,9 @@
 /*   By: motanha- <motanha-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/27 14:49:07 by motanha-          #+#    #+#             */
-/*   Updated: 2023/09/27 14:49:18 by motanha-         ###   ########.fr       */
+/*   Updated: 2023/10/06 18:11:43 by motanha-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "../includes/fractol.h"
 #include <stdio.h>
